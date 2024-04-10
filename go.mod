@@ -1,4 +1,4 @@
-module my.domain/guestbook
+module github.com/gfulton-redhat/guestbook
 
 go 1.21
 
