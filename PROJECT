@@ -7,4 +7,14 @@ layout:
 - go.kubebuilder.io/v4
 projectName: guestbook
 repo: github.com/gfulton-redhat/guestbook
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: github.com
+  group: webapp
+  kind: Guestbook
+  path: github.com/gfulton-redhat/guestbook/api/v1
+  version: v1
 version: "3"
